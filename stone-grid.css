@@ -67,3 +67,8 @@
 .col-11-12 {
     width: 91.6666%;
 }
+
+.col-12-12,
+.full-width {
+    width: 100%;
+}
