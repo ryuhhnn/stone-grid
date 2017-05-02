@@ -1,27 +1,26 @@
 /*
- * stone-grid v1.0.1
+ * stone-grid v1.2.0
  * Copyright 2016 Ryan Coleman (http://ryuhhnn.com/)
  * Licensed under MIT (https://github.com/ryuhhnn/stone-grid/blob/master/LICENSE)
  */
  
-.stone-grid {
+.grid {
     position: relative;
     min-height: 1px;
 }
 
-.stone-grid:before,
-.stone-grid:after {
+.grid:before,
+.grid:after {
   content: " ";
   display: table;
 }
 
-.stone-grid:after {
+.grid:after {
     clear: both;
 }
 
 .col-1-12, .col-2-12, .col-3-12, .col-4-12, .col-5-12, .col-6-12, .col-7-12, .col-8-12, .col-9-12, .col-10-12, .col-11-12, .col-12-12 {
     float: left;
-    padding: 15px;
 }
 
 .col-1-12 {
